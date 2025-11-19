@@ -1,0 +1,21 @@
+# PC操作支援アプリケーション - 必要なライブラリ
+
+# AI API
+openai>=1.0.0
+
+# 画像処理
+Pillow>=9.0.0
+
+# 入力監視
+pynput>=1.7.0
+
+# 音声認識
+SpeechRecognition>=3.10.0
+pyaudio>=0.2.11
+
+# GUI (標準ライブラリのため不要だが、参考として記載)
+# tkinter - Python標準ライブラリ
+
+# その他の依存関係
+# python-xlib>=0.33  # pynputの依存関係（Linux）
+# evdev>=1.6.0       # pynputの依存関係（Linux）
